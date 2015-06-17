@@ -1,0 +1,75 @@
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+\usepackage{graphicx}
+%\graphicspath{{images/}}
+\name {Vikas M} % Your name
+\address {S/O Manjunatha.N,C/O Sri Nandi Medicals,T.K Road,Old Town Bhadravathi-577301}
+\address{Shimoga(Dist.) Karnataka (S)} % Your address
+\address{+919741641879 \\ vikasmdevang@gmail.com} % Your phone number and email
+
+\begin{document}
+\begin{figure}[h]
+
+\includegraphics[height=4cm,width=3cm]{vikky.jpg}\\
+%\caption{Block Diagram of Remote Automation and Data monitoring of Irrigation System}\label{fig 2.1}
+\end{figure}
+\begin{rSection}{Career Objective}
+To obtain a Position in Technology field specifically dealing with programming and developments.
+\end{rSection}
+
+\begin{rSection}{Education}
+\begin{center}
+	\begin{tabular}{||c|c|c|c||}
+		\hline\hline
+		\bf Examination & \bf Institute & \bf Year & \bf Performance \\
+		\hline\hline
+	    B.E(E.C) & JNN College of Engineering & June, 2015 & 70.21\% \\
+		\hline
+		2nd PUC & Sri Aurobindo PU College & 2011 & 86.83\% \\
+		\hline
+		S.S.L.C & Poorna Pragna Education Centre & 2009 & 93.76\% \\
+		\hline\hline
+		
+		
+	\end{tabular}
+\end{center}
+
+\end{rSection}
+
+\begin{rSection}{Projects}
+
+\begin{enumerate}
+
+\item \begin{rSubsection}{Remote Automation in Agriculture}{April, 2015}{Electronics \& Communication}{JNNCE,Shivamogga}
+\item Automating a agricultural field by sending an SMS to the system which checks the various parameters such as availabilty of ground water,Soil moisture level,Three phase availability and whether its raining are not and then Switches on the MOTOR if all the parameters are satisfied.
+\end{rSubsection}
+
+\item \begin{rSubsection}{Workshops Conducted}{July, 2014}{Electronics \& Communication}{JNNCE,Shivamogga}
+\item Conducted “Hobby Project Hands on Workshop” for 3rd Sem EC students.
+\item Conducted “MSP 430 Microcontroller Hands on Workshop” for 5th Sem EC students of our college.
+\end{rSubsection}
+
+\end{enumerate}
+\end{rSection}
+
+
+\begin{rSection}{Training and Internship}
+	\begin{itemize}
+		\item \begin{rSubsection}{Vocational Training on Telecom Technologies}{January, 2014}{Successfully completed Training on Telecom Technologies of BSNL in Shimoga.}
+		\item Successfully completed 3 days of Workshop on “Introduction to Computer Hardware and Networking” conducted by Department of EC of our college.
+        \item Presently doing Internship at IIT BOMBAY,Mumbai on Robotics and Embedded C.
+	\end{itemize}
+\end{rSection}
+
+\begin{rSection}{Research Publication}
+	\begin{enumerate}
+		\item Read a research paper on "Vehicle Crash Test using Haar Wavelets" as a part of an academic activity.
+		\item No research paper publication yet
+	\end{enumerate}
+\end{rSection}
+
+
+
+
+ \end{document} 

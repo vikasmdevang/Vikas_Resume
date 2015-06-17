@@ -1,0 +1,56 @@
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+\usepackage{graphicx}
+%\graphicspath{{images/}}
+\name {Vikas M} % Your name
+\address {S/O Manjunatha.N,C/O Sri Nandi Medicals,T.K Road,Old Town Bhadravathi-577301}
+\address{Shimoga(Dist.) Karnataka (S)} % Your address
+\address{+919741641879 \\ vikasmdevang@gmail.com} % Your phone number and email
+
+\begin{document}
+\begin{figure}[h]
+
+\includegraphics[height=4cm,width=3cm]{vikky.jpg}\\
+%\caption{Block Diagram of Remote Automation and Data monitoring of Irrigation System}\label{fig 2.1}
+\end{figure}
+\begin{rSection}{Career Objective}
+To obtain a Position in Technology field specifically dealing with programming and developments.
+\end{rSection}
+
+\begin{rSection}{Education}
+\begin{center}
+	\begin{tabular}{||c|c|c|c||}
+		\hline\hline
+		\bf Examination & \bf Institute & \bf Year & \bf Performance \\
+		\hline\hline
+	    B.E(E.C) & JNN College of Engineering & June, 2015 & 70.21\% \\
+		\hline
+		2nd PUC & Sri Aurobindo PU College & 2011 & 86.83\% \\
+		\hline
+		S.S.L.C & Poorna Pragna Education Centre & 2010 & 93.76\% \\
+		\hline\hline
+		
+		
+	\end{tabular}
+\end{center}
+
+\end{rSection}
+
+
+\begin{rSection}{Projects}
+
+\begin{enumerate}
+
+\item \begin{rSubsection}{Home Automation}{May, 2013}{Mechanical \& Electronics}{VJTI, Eklavya}
+\item Automating a house and controlling the basic devices like lights, fans, doors, curtains,etc with the help of an android system phone via a bluetooth.
+\end{rSubsection}
+
+\item \begin{rSubsection}{Voice Controlled Crane(VCC)}{December, 2013}{Mechanical \& Electroncs}{VJTI, Technovanza}
+\item A crane that could be voice controlled where the commands are given on the microphone of android phone and the commands like pick, go, stop, up, down,etc are executed by the crane.
+\item The crane could be controlled from a Remote distance.
+\end{rSubsection}
+\end{enumerate}
+\end{rSection}
+
+ \end{document} 
